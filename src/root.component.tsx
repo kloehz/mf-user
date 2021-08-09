@@ -1,3 +1,20 @@
+import styled from "styled-components";
+
+const Container = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+`;
+
 export default function Root(props) {
-  return <h2>Fpay my space web xd</h2>;
+  return (
+    <Container>
+      <h2>Pagina independiente</h2>
+      <h3>Esta pagina esta subida a la plataforma de github,
+        cualquier cambio en esta no afecta al resto del sitio.
+      </h3>
+    </Container>
+  );
 }
