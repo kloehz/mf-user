@@ -11,7 +11,7 @@ const Container = styled.div`
 export default function Root(props) {
   return (
     <Container>
-      <h2>Pagina independiente</h2>
+      <h2>Pagina independiente de muestra para la review</h2>
       <h3>Esta pagina esta subida a la plataforma de github,
         cualquier cambio en esta no afecta al resto del sitio.
       </h3>
